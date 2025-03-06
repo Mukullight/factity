@@ -1,0 +1,8 @@
+HOME_ROUTE="/"
+ABOUT_US_ROUTE="/about"
+ARTICLE_LIST_ROUTE="/articles"
+CONTACT_US_ROUTE="/contact"
+CONTACT_ENTRIES_ROUTE="/contact/entries"
+LOGOUT_ROUTE="/logout"
+TRANSCRIPTION_ROUTE="/transcription"
+AGENT_ACTION="/AGENT_ACTION"

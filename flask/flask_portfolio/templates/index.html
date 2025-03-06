@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="{{ url_for('static', filename='image/logo.png') }}" alt="Logo" class="logo">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<div class="">
+    <h1 class="highlight">Home</h1>
+    <p class="subtle">Welcome to my portfolio!</p>
+<div class="markdwn" id="markdown-content">
+    here is the roboto mono text 
+    </div>
+    <div class="card">
+        <h2 class="highlight">About Me</h2>
+        <p class="subtle">I am a passionate developer...</p>
+    </div>
+    <div class="card">
+        <h2 class="highlight">Projects</h2>
+        <p class="project">Project 1 - Description</p>
+        <p class="project">Project 2 - Description</p>
+    </div>
+    <div class="card">
+        <h2 class="highlight">Contact</h2>
+        <p class="link">Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </div>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js"></script>
+    <spline-viewer url="https://prod.spline.design/RJiScIxzcGjvUuWt/scene.splinecode"></spline-viewer>
+
+</body>
+</html>
